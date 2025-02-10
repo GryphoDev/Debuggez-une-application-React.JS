@@ -41,6 +41,10 @@
       min-height: 32px;
       margin: 0;
       text-transform: capitalize;
+      cursor: pointer;
+      &:hover {
+        opacity: 0.5;
+      }
     }
   }
   input {
@@ -55,6 +59,7 @@
     height: 32px;
     margin-top: 16px;
     margin-right: 8px;
+    cursor: pointer;
     &.close {
       transform: rotate(180deg);
     }
@@ -62,9 +67,17 @@
   .SelectTitle {
     &--show {
       display: flex;
+      cursor: inherit;
+      &:hover {
+        opacity: 1;
+      }
     }
     &--hide {
       color: white;
+      cursor: inherit;
+      &:hover {
+        opacity: 1;
+      }
     }
   }
 }
