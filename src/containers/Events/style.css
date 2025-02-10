@@ -1,3 +1,9 @@
 .SelectTitle {
   color: white;
 }
+.allPageNumber:hover {
+  opacity: 0.7;
+}
+.allPageNumber.activePage {
+  text-decoration: underline;
+}
